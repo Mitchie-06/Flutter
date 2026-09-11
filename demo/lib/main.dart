@@ -25,12 +25,23 @@ class MyApp extends StatelessWidget {
             
               SizedBox(height: 21),
               Text:('Machelor of Science in Information Technology'),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icons(Icons.person, color: Colors.pink, sizze: 45.0),
+                  Text(
+                    'Mitchie',
+                    style: TextStyle(fontSize: 30, color: Colors.blue),
+                  ),
+                  Icons(Icons.favorite. color: Colors.pink, size: 35.0),
+                ]
+              )
             ],
               
             ),
           ),
         ),
-      ),
-    );
+      );
   }
 }
