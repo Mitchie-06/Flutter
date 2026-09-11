@@ -18,25 +18,55 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              Icon(Icons.account_circle, color: Colors.deepPurple, size: 145),
               Text(
-                'Hello World', 
-                style: TextStyle(fontSize: 50, color: Colors.purple),
+                'Mitchie Galvez', 
+                style: TextStyle(fontSize: 21, color: Colors.purple),
               ),
-            
-              SizedBox(height: 21),
-              Text:('Machelor of Science in Information Technology'),
-              SizedBox(height: 20),
+              Text('Bachelor of Science in Information Technology'),
+              SizedBox(height: 200),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                Icon(Icons.home, color: Colors.deepPurple, size: 45),
+                Icon(Icons.menu_book, color: Colors.deepPurple, size: 45),
+                Icon(Icons.person, color: Colors.deepPurple, size: 45),
+                  
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                Text(
+                'Home', 
+                style: TextStyle(fontSize: 21, color: Colors.purple),
+              ),
+              Text(
+                'Courses', 
+                style: TextStyle(fontSize: 21, color: Colors.purple),
+              ),
+              Text(
+                'Profile', 
+                style: TextStyle(fontSize: 21, color: Colors.purple),
+              ),
+                  
+                ],
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icons(Icons.person, color: Colors.pink, sizze: 45.0),
-                  Text(
-                    'Mitchie',
-                    style: TextStyle(fontSize: 30, color: Colors.blue),
-                  ),
-                  Icons(Icons.favorite. color: Colors.pink, size: 35.0),
-                ]
-              )
+                SizedBox(height: 300),
+
+                Text(
+                'Ang pogi mo Rod', 
+                style: TextStyle(fontSize: 16, color: Colors.grey),
+                
+              ),
+
+                  
+                ],
+              ),
+              
             ],
               
             ),
