@@ -14,10 +14,19 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text(
-            'Hello World', style: TextStyle(
-              fontSize: 50,
-              color: Colors.purple
+          child: column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(
+                'Hello World', 
+                style: TextStyle(fontSize: 50, color: Colors.purple),
+              ),
+            
+              SizedBox(height: 21),
+              Text:('Machelor of Science in Information Technology'),
+            ],
+              
             ),
           ),
         ),
